@@ -58,3 +58,5 @@ alias gpp="g++ -std=c++20 -Wall -Wextra -O2"
 # Fix GPG issues (common on mac)
 # -------------------------------------
 export GPG_TTY=$(tty)
+export PATH="/usr/local/opt/cmake/bin:$PATH"
+export PATH="/usr/local/opt/binutils/bin:$PATH"
