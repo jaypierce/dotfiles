@@ -3,3 +3,4 @@
 .gnupg/
 Desktop.ini
 Thumbs.db
+*.sw*
