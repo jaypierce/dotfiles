@@ -12,6 +12,9 @@ set encoding=utf-8
 set tabstop=2 shiftwidth=2 softtabstop=2 expandtab
 set hlsearch incsearch ignorecase smartcase
 nnoremap / /\v
+vnoremap / /\v
+set showmatch
+map <leader><space> :let @/=''<CR>
 " -------------------------------------------------------------------------
 
 " --------------------------------------------------------------
